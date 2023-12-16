@@ -8,11 +8,9 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
-  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -30,6 +28,7 @@ body {
 }
 
 .board {
+  width: -moz-fit-content;
   width: fit-content;
   margin: 40px auto;
   text-align: center;
@@ -68,6 +67,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 15px auto;
+  width: -moz-fit-content;
   width: fit-content;
   position: relative;
   border-radius: 10px;
@@ -112,6 +112,7 @@ body {
 
 .winner .win {
   margin: 0 auto;
+  width: -moz-fit-content;
   width: fit-content;
   border: 2px solid #eee;
   border-radius: 10px;
